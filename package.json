@@ -1,0 +1,23 @@
+{
+  "name": "broodwar-json",
+  "version": "1.0.0",
+  "description": "JSON description of Starcraft Broodwar units / abilities / weapons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpineda/broodwar-json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexpineda/broodwar-json/issues"
+  },
+  "homepage": "https://github.com/alexpineda/broodwar-json#readme",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2",
+    "request": "2.83.0"
+  }
+}

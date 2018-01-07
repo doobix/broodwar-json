@@ -1,0 +1,22 @@
+[{
+    "Name": "Zerg",
+    "Worker": "Zerg Drone",
+    "Resource Depot": "Zerg Hatchery",
+    "Refinery": "Zerg Extractor",
+    "Transport": "Zerg Overlord",
+    "Supply Provider": "Zerg Overlord"
+}, {
+    "Name": "Terran",
+    "Worker": "Terran SCV",
+    "Resource Depot": "Terran Command Center",
+    "Refinery": "Terran Refinery",
+    "Transport": "Terran Dropship",
+    "Supply Provider": "Terran Supply Depot"
+}, {
+    "Name": "Protoss",
+    "Worker": "Protoss Probe",
+    "Resource Depot": "Protoss Nexus",
+    "Refinery": "Protoss Assimilator",
+    "Transport": "Protoss Shuttle",
+    "Supply Provider": "Protoss Pylon"
+}]
