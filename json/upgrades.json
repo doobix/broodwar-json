@@ -1,5 +1,6 @@
-[{
+[ {
     "Name": "Terran Infantry Armor",
+    "Icon": "cmdbtn cmdbtn-icon292",
     "Race": "Terran",
     "Cost": "100 + lvl*75  100 + lvl*75",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -10,6 +11,7 @@
     "Level 3 Requires": "Terran Science Facility"
 }, {
     "Name": "Terran Vehicle Plating",
+    "Icon": "cmdbtn cmdbtn-icon293",
     "Race": "Terran",
     "Cost": "100 + lvl*75  100 + lvl*75",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -20,6 +22,7 @@
     "Level 3 Requires": "Terran Science Facility"
 }, {
     "Name": "Terran Ship Plating",
+    "Icon": "cmdbtn cmdbtn-icon291",
     "Race": "Terran",
     "Cost": "150 + lvl*75  150 + lvl*75",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -30,6 +33,7 @@
     "Level 3 Requires": "Terran Science Facility"
 }, {
     "Name": "Terran Infantry Weapons",
+    "Icon": "cmdbtn cmdbtn-icon288",
     "Race": "Terran",
     "Cost": "100 + lvl*75  100 + lvl*75",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -40,6 +44,7 @@
     "Level 3 Requires": "Terran Science Facility"
 }, {
     "Name": "Terran Vehicle Weapons",
+    "Icon": "cmdbtn cmdbtn-icon289",
     "Race": "Terran",
     "Cost": "100 + lvl*75  100 + lvl*75",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -50,6 +55,7 @@
     "Level 3 Requires": "Terran Science Facility"
 }, {
     "Name": "Terran Ship Weapons",
+    "Icon": "cmdbtn cmdbtn-icon290",
     "Race": "Terran",
     "Cost": "100 + lvl*50  100 + lvl*50",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -60,6 +66,7 @@
     "Level 3 Requires": "Terran Science Facility"
 }, {
     "Name": "U 238 Shells",
+    "Icon": "cmdbtn cmdbtn-icon238",
     "Race": "Terran",
     "Cost": "150  150",
     "Upgrade Time": "1500 frames",
@@ -67,6 +74,7 @@
     "Used by": "Terran Marine"
 }, {
     "Name": "Ion Thrusters",
+    "Icon": "cmdbtn cmdbtn-icon287",
     "Race": "Terran",
     "Cost": "100  100",
     "Upgrade Time": "1500 frames",
@@ -74,6 +82,7 @@
     "Used by": "Terran Vulture"
 }, {
     "Name": "Titan Reactor",
+    "Icon": "cmdbtn cmdbtn-icon248",
     "Race": "Terran",
     "Cost": "150  150",
     "Upgrade Time": "2500 frames",
@@ -81,6 +90,7 @@
     "Used by": "Terran Science Vessel"
 }, {
     "Name": "Ocular Implants",
+    "Icon": "cmdbtn cmdbtn-icon249",
     "Race": "Terran",
     "Cost": "100  100",
     "Upgrade Time": "2500 frames",
@@ -88,6 +98,7 @@
     "Used by": "Terran Ghost"
 }, {
     "Name": "Moebius Reactor",
+    "Icon": "cmdbtn cmdbtn-icon256",
     "Race": "Terran",
     "Cost": "150  150",
     "Upgrade Time": "2500 frames",
@@ -95,6 +106,7 @@
     "Used by": "Terran Ghost"
 }, {
     "Name": "Apollo Reactor",
+    "Icon": "cmdbtn cmdbtn-icon284",
     "Race": "Terran",
     "Cost": "200  200",
     "Upgrade Time": "2500 frames",
@@ -102,6 +114,7 @@
     "Used by": "Terran Wraith"
 }, {
     "Name": "Colossus Reactor",
+    "Icon": "cmdbtn cmdbtn-icon285",
     "Race": "Terran",
     "Cost": "150  150",
     "Upgrade Time": "2500 frames",
@@ -109,6 +122,7 @@
     "Used by": "Terran Battlecruiser"
 }, {
     "Name": "Caduceus Reactor",
+    "Icon": "cmdbtn cmdbtn-icon384",
     "Race": "Terran",
     "Cost": "150  150",
     "Upgrade Time": "2500 frames",
@@ -116,6 +130,7 @@
     "Used by": "Terran Medic"
 }, {
     "Name": "Charon Boosters",
+    "Icon": "cmdbtn cmdbtn-icon380",
     "Race": "Terran",
     "Cost": "100  100",
     "Upgrade Time": "2000 frames",
@@ -124,6 +139,7 @@
     "Level 1 Requires": "Terran Armory"
 }, {
     "Name": "Zerg Carapace",
+    "Icon": "cmdbtn cmdbtn-icon297",
     "Race": "Zerg",
     "Cost": "150 + lvl*75  150 + lvl*75",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -134,6 +150,7 @@
     "Level 3 Requires": "Zerg Hive"
 }, {
     "Name": "Zerg Flyer Carapace",
+    "Icon": "cmdbtn cmdbtn-icon298",
     "Race": "Zerg",
     "Cost": "150 + lvl*75  150 + lvl*75",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -144,6 +161,7 @@
     "Level 3 Requires": "Zerg Hive"
 }, {
     "Name": "Zerg Melee Attacks",
+    "Icon": "cmdbtn cmdbtn-icon299",
     "Race": "Zerg",
     "Cost": "100 + lvl*50  100 + lvl*50",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -154,6 +172,7 @@
     "Level 3 Requires": "Zerg Hive"
 }, {
     "Name": "Zerg Missile Attacks",
+    "Icon": "cmdbtn cmdbtn-icon300",
     "Race": "Zerg",
     "Cost": "100 + lvl*50  100 + lvl*50",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -164,6 +183,7 @@
     "Level 3 Requires": "Zerg Hive"
 }, {
     "Name": "Zerg Flyer Attacks",
+    "Icon": "cmdbtn cmdbtn-icon301",
     "Race": "Zerg",
     "Cost": "100 + lvl*75  100 + lvl*75",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -174,6 +194,7 @@
     "Level 3 Requires": "Zerg Hive"
 }, {
     "Name": "Ventral Sacs",
+    "Icon": "cmdbtn cmdbtn-icon261",
     "Race": "Zerg",
     "Cost": "200  200",
     "Upgrade Time": "2400 frames",
@@ -181,6 +202,7 @@
     "Used by": "Zerg Overlord"
 }, {
     "Name": "Antennae",
+    "Icon": "cmdbtn cmdbtn-icon262",
     "Race": "Zerg",
     "Cost": "150  150",
     "Upgrade Time": "2000 frames",
@@ -188,6 +210,7 @@
     "Used by": "Zerg Overlord"
 }, {
     "Name": "Pneumatized Carapace",
+    "Icon": "cmdbtn cmdbtn-icon296",
     "Race": "Zerg",
     "Cost": "150  150",
     "Upgrade Time": "2000 frames",
@@ -195,6 +218,7 @@
     "Used by": "Zerg Overlord"
 }, {
     "Name": "Metabolic Boost",
+    "Icon": "cmdbtn cmdbtn-icon263",
     "Race": "Zerg",
     "Cost": "100  100",
     "Upgrade Time": "1500 frames",
@@ -202,6 +226,7 @@
     "Used by": "Zerg Zergling"
 }, {
     "Name": "Adrenal Glands",
+    "Icon": "cmdbtn cmdbtn-icon264",
     "Race": "Zerg",
     "Cost": "200  200",
     "Upgrade Time": "1500 frames",
@@ -210,6 +235,7 @@
     "Level 1 Requires": "Zerg Hive"
 }, {
     "Name": "Muscular Augments",
+    "Icon": "cmdbtn cmdbtn-icon266",
     "Race": "Zerg",
     "Cost": "150  150",
     "Upgrade Time": "1500 frames",
@@ -217,6 +243,7 @@
     "Used by": "Zerg Hydralisk"
 }, {
     "Name": "Grooved Spines",
+    "Icon": "cmdbtn cmdbtn-icon268",
     "Race": "Zerg",
     "Cost": "150  150",
     "Upgrade Time": "1500 frames",
@@ -224,6 +251,7 @@
     "Used by": "Zerg Hydralisk"
 }, {
     "Name": "Gamete Meiosis",
+    "Icon": "cmdbtn cmdbtn-icon294",
     "Race": "Zerg",
     "Cost": "150  150",
     "Upgrade Time": "2500 frames",
@@ -231,6 +259,7 @@
     "Used by": "Zerg Queen"
 }, {
     "Name": "Metasynaptic Node",
+    "Icon": "cmdbtn cmdbtn-icon295",
     "Race": "Zerg",
     "Cost": "150  150",
     "Upgrade Time": "2500 frames",
@@ -238,6 +267,7 @@
     "Used by": "Zerg Defiler"
 }, {
     "Name": "Chitinous Plating",
+    "Icon": "cmdbtn cmdbtn-icon379",
     "Race": "Zerg",
     "Cost": "150  150",
     "Upgrade Time": "2000 frames",
@@ -245,6 +275,7 @@
     "Used by": "Zerg Ultralisk"
 }, {
     "Name": "Anabolic Synthesis",
+    "Icon": "cmdbtn cmdbtn-icon378",
     "Race": "Zerg",
     "Cost": "200  200",
     "Upgrade Time": "2000 frames",
@@ -252,6 +283,7 @@
     "Used by": "Zerg Ultralisk"
 }, {
     "Name": "Protoss Ground Armor",
+    "Icon": "cmdbtn cmdbtn-icon303",
     "Race": "Protoss",
     "Cost": "100 + lvl*75  100 + lvl*75",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -262,6 +294,7 @@
     "Level 3 Requires": "Protoss Templar Archives"
 }, {
     "Name": "Protoss Air Armor",
+    "Icon": "cmdbtn cmdbtn-icon304",
     "Race": "Protoss",
     "Cost": "150 + lvl*75  150 + lvl*75",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -272,6 +305,7 @@
     "Level 3 Requires": "Protoss Fleet Beacon"
 }, {
     "Name": "Protoss Ground Weapons",
+    "Icon": "cmdbtn cmdbtn-icon305",
     "Race": "Protoss",
     "Cost": "100 + lvl*50  100 + lvl*50",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -282,6 +316,7 @@
     "Level 3 Requires": "Protoss Templar Archives"
 }, {
     "Name": "Protoss Air Weapons",
+    "Icon": "cmdbtn cmdbtn-icon306",
     "Race": "Protoss",
     "Cost": "100 + lvl*75  100 + lvl*75",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -292,6 +327,7 @@
     "Level 3 Requires": "Protoss Fleet Beacon"
 }, {
     "Name": "Protoss Plasma Shields",
+    "Icon": "cmdbtn cmdbtn-icon310",
     "Race": "Protoss",
     "Cost": "200 + lvl*100  200 + lvl*100",
     "Upgrade Time": "4000 + lvl*480 frames",
@@ -302,6 +338,7 @@
     "Level 3 Requires": "Protoss Cybernetics Core"
 }, {
     "Name": "Singularity Charge",
+    "Icon": "cmdbtn cmdbtn-icon281",
     "Race": "Protoss",
     "Cost": "150  150",
     "Upgrade Time": "2500 frames",
@@ -309,6 +346,7 @@
     "Used by": "Protoss Dragoon"
 }, {
     "Name": "Leg Enhancements",
+    "Icon": "cmdbtn cmdbtn-icon307",
     "Race": "Protoss",
     "Cost": "150  150",
     "Upgrade Time": "2000 frames",
@@ -316,6 +354,7 @@
     "Used by": "Protoss Zealot"
 }, {
     "Name": "Scarab Damage",
+    "Icon": "cmdbtn cmdbtn-icon314",
     "Race": "Protoss",
     "Cost": "200  200",
     "Upgrade Time": "2500 frames",
@@ -323,6 +362,7 @@
     "Used by": "Protoss Reaver"
 }, {
     "Name": "Reaver Capacity",
+    "Icon": "cmdbtn cmdbtn-icon315",
     "Race": "Protoss",
     "Cost": "200  200",
     "Upgrade Time": "2500 frames",
@@ -330,6 +370,7 @@
     "Used by": "Protoss Reaver"
 }, {
     "Name": "Gravitic Drive",
+    "Icon": "cmdbtn cmdbtn-icon316",
     "Race": "Protoss",
     "Cost": "200  200",
     "Upgrade Time": "2500 frames",
@@ -337,6 +378,7 @@
     "Used by": "Protoss Shuttle"
 }, {
     "Name": "Sensor Array",
+    "Icon": "cmdbtn cmdbtn-icon317",
     "Race": "Protoss",
     "Cost": "150  150",
     "Upgrade Time": "2000 frames",
@@ -344,6 +386,7 @@
     "Used by": "Protoss Observer"
 }, {
     "Name": "Gravitic Boosters",
+    "Icon": "cmdbtn cmdbtn-icon276",
     "Race": "Protoss",
     "Cost": "150  150",
     "Upgrade Time": "2000 frames",
@@ -351,6 +394,7 @@
     "Used by": "Protoss Observer"
 }, {
     "Name": "Khaydarin Amulet",
+    "Icon": "cmdbtn cmdbtn-icon318",
     "Race": "Protoss",
     "Cost": "150  150",
     "Upgrade Time": "2500 frames",
@@ -358,6 +402,7 @@
     "Used by": "Protoss High Templar"
 }, {
     "Name": "Apial Sensors",
+    "Icon": "cmdbtn cmdbtn-icon319",
     "Race": "Protoss",
     "Cost": "100  100",
     "Upgrade Time": "2500 frames",
@@ -365,6 +410,7 @@
     "Used by": "Protoss Scout"
 }, {
     "Name": "Gravitic Thrusters",
+    "Icon": "cmdbtn cmdbtn-icon320",
     "Race": "Protoss",
     "Cost": "200  200",
     "Upgrade Time": "2500 frames",
@@ -372,6 +418,7 @@
     "Used by": "Protoss Scout"
 }, {
     "Name": "Carrier Capacity",
+    "Icon": "cmdbtn cmdbtn-icon321",
     "Race": "Protoss",
     "Cost": "100  100",
     "Upgrade Time": "1500 frames",
@@ -379,6 +426,7 @@
     "Used by": "Protoss Carrier"
 }, {
     "Name": "Khaydarin Core",
+    "Icon": "cmdbtn cmdbtn-icon322",
     "Race": "Protoss",
     "Cost": "150  150",
     "Upgrade Time": "2500 frames",
@@ -386,6 +434,7 @@
     "Used by": "Protoss Arbiter"
 }, {
     "Name": "Argus Jewel",
+    "Icon": "cmdbtn cmdbtn-icon383",
     "Race": "Protoss",
     "Cost": "100  100",
     "Upgrade Time": "2500 frames",
@@ -393,6 +442,7 @@
     "Used by": "Protoss Corsair"
 }, {
     "Name": "Argus Talisman",
+    "Icon": "cmdbtn cmdbtn-icon385",
     "Race": "Protoss",
     "Cost": "150  150",
     "Upgrade Time": "2500 frames",

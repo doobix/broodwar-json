@@ -1,5 +1,6 @@
 [{
     "Name": "Zerg",
+    "Icon": "",
     "Worker": "Zerg Drone",
     "Resource Depot": "Zerg Hatchery",
     "Refinery": "Zerg Extractor",
@@ -7,6 +8,7 @@
     "Supply Provider": "Zerg Overlord"
 }, {
     "Name": "Terran",
+    "Icon": "",
     "Worker": "Terran SCV",
     "Resource Depot": "Terran Command Center",
     "Refinery": "Terran Refinery",
@@ -14,6 +16,7 @@
     "Supply Provider": "Terran Supply Depot"
 }, {
     "Name": "Protoss",
+    "Icon": "",
     "Worker": "Protoss Probe",
     "Resource Depot": "Protoss Nexus",
     "Refinery": "Protoss Assimilator",

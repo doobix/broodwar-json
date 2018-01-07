@@ -1,11 +1,9 @@
 const cheerio = require('cheerio')
 
 var request = require('request');
-request(process.argv[2] || 'https://bwapi.github.io/namespace_b_w_a_p_i_1_1_unit_types.html', function (error, response, body) {
+request(process.argv[2], function (error, response, body) {
   scrape(body);
 });
-
-
 
 function scrape(html){
     const $ = cheerio.load(html)
@@ -15,9 +13,19 @@ function scrape(html){
     const units = [];
 
     rows$.each((ix, row) => {
-        const unitName = $($(row).find('p')[0]).text();
+        let unitIcon = $(row).find('p i');
+
+        let unitName = "";
+        if (unitIcon.length) {
+            unitName = $(unitIcon).closest('p').text();
+        } else {
+            unitName = $($(row).find('p')[0]).text();
+        }
+        unitIcon = unitIcon.length ? $(unitIcon).attr('class') : '';
+
         const unit = {
-            Name: unitName.trim()
+            Name: unitName.trim(),
+            Icon: unitIcon
         };
 
         $(row).find('table tr').each((ix,tr) => {
