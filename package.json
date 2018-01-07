@@ -1,6 +1,6 @@
 {
   "name": "broodwar-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON description of Starcraft Broodwar units / abilities / weapons",
   "main": "index.js",
   "scripts": {
