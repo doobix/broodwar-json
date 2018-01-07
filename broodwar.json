@@ -1,0 +1,697 @@
+{
+    "units": [
+        
+        {
+            "name": "Terran Firebat",
+            "race": "Terran",
+            "hp": 50,
+            "armor": 1,
+            "armorUpgrade": "Terran Infantry Armor",
+            "cost": [50, 25, 2],
+            "buildTime": 360,
+            "buildScore": 100,
+            "destroyScore": 200,
+            "topSpeed": 4,
+            "size": "Small",
+            "groundWeapon" : "Flame Thrower x3",
+            "abilities": ["Stim Packs"],
+            "upgrades": ["Terran Infantry Armor", "Terran Infantry Weapons"],
+            "requiredUnits": ["Terran Barracks", "Terran Academy"],
+            "createdBy": "Terran Barracks",
+            "attributes": ["Organic"]
+        },
+
+        {
+            "name": "Terran Ghost",
+            "race": "Terran",
+            "hp": 45,
+            "energy": 200,
+            "armor": 0,
+            "armorUpgrade": "Terran Infantry Armor",
+            "cost": [25, 75, 2],
+            "buildTime": 750,
+            "topSpeed": 4,
+            "groundWeapon": "C 10 Canister Rifle",
+            "airWeapon": "C 10 Canister Rifle",
+            "sizeType": "Small",
+            "sightRange": 288,
+            "abilities": ["Lockdown", "Personnel Cloaking", "Nuclear Strike"],
+            "upgrades": ["Terran Infantry Armor", "Terran Infantry Weapons", "Ocular Implants", "Moebius Reactor"],
+            "requiredUnits": ["Terran Academy", "Terran Barracks", "Terran Covert Ops"],
+            "createdBy": "Terran Barracks",
+            "attributes": ["Organic"]
+        },
+
+        {
+            "name": "Terran Goliath",
+            "race":	"Terran",
+            "hp":	125,
+            "armor":	1,
+            "armorUpgrade":	"Terran Vehicle Plating",
+            "cost":	[100, 50,  4],
+            "buildTime": 600,
+            "topSpeed":	4.57,
+            "groundWeapon": "Twin Autocannons",
+            "airWeapon":	"Hellfire Missile Pack",
+            "sizeType":	"Large",
+            "seekRange":	160,
+            "sightRange":	256,
+            "upgrades":	["Terran Vehicle Plating", "Terran Vehicle Weapons", "Charon Boosters"],
+            "requiredUnits": ["Terran Factory", "Terran Armory"],
+            "createdBy":	"Terran Factory",
+            "attributes":	"Mechanical"
+        },
+
+        {
+            "name": "Terran Marine",
+            "race": "Terran",
+            "hp": 40,
+            "armor": 0,
+            "armorUpgrade": "Terran Infantry Armor",
+            "cost": [50, 0, 2],
+            "buildTime":	360,
+            "topSpeed":	4,
+            "groundWeapon":	"Gauss Rifle",
+            "airWeapon":	"Gauss Rifle",
+            "sizeType":	"Small",
+            "sightRange": 224,
+            "abilities": ["Stim Packs"],
+            "upgrades":	["U 238 Shells", "Terran Infantry Armor", "Terran Infantry Weapons"],
+            "requiredUnits": ["Terran Barracks"],
+            "createdBy": "Terran Barracks",
+            "attributes":	["Organic"]
+
+        },
+
+        {
+            "name": "Terran Medic",
+            "race": "Terran",
+            "hp": 60,
+            "energy": 200,
+            "armor": 1,
+            "armorUpgrade": "Terran Infantry Armor",
+            "cost": [50, 25, 2],
+            "buildTime":	450,
+            "topSpeed":	4,
+            "sizeType":	"Small",
+            "seekRange": 288,
+            "sightRange": 288,
+            "abilities": ["Restoration", "Optical Flare", "Healing"],
+            "upgrades":	["Caduceus Reactor", "Terran Infantry Armor"],
+            "requiredUnits": ["Terran Barracks", "Terran Academy"],
+            "createdBy": "Terran Barracks",
+            "attributes":	["Organic"]
+
+        },
+
+        {
+            "name": "Terran SCV",
+            "hp": 60,
+            "armor": 0,
+            "armorUpgrade": "Terran Infantry Armor",
+            "cost": [50, 0, 2],
+            "buildTime": 300,
+            "topSpeed": 4.92,
+            "groundWeapon": "Fusion Cutter",
+            "sizeType": "Small",
+            "seekRange": 32,
+            "sightRange": 224,
+            "upgrades": ["Terran Infantry Armor"],
+            "requiredUnits": ["Terran Command Center"],
+            "createdBy": "Terran Command Center",
+            "attributes": ["Organic", "Mechanical", "Worker"]
+        },
+
+        {
+            "name": "Terran Siege Tank (Siege Mode)",
+            "correspondsWith": "Terran Siege Tank (Tank Mode)",
+            "race": "Terran",
+            "hp": 150,
+            "armor": 1,
+            "armorUpgrade": "Terran Vehicle Plating",
+            "cost": [150, 100, 4],
+            "buildTime": 750,
+            "topSpeed": 0,
+            "sightRange": 320,
+            "groundWeapon": "Arclite Shock Cannon",
+            "sizeType": "Large",
+            "abilities": ["Tank Siege Mode"],
+            "upgrades": ["Terran Vehicle Plating", "Terran Vehicle Weapons"],
+            "requiredUnits": ["Terran Factory", "Terran Machine Shop"],
+            "attributes": ["Mechanical"],
+            "createdBy": "Terran Factory"
+        },
+
+        {
+            "name": "Terran Siege Tank (Tank Mode)",
+            "correspondsWith": "Terran Siege Tank (Siege Mode)",
+            "race": "Terran",
+            "hp": 150,
+            "armor": 1,
+            "armorUpgrade": "Terran Vehicle Plating",
+            "cost": [150, 100, 4],
+            "buildTime": 750,
+            "topSpeed": 4,
+            "sightRange": 320,
+            "seekRange": 256,
+            "groundWeapon": "Arclite Cannon",
+            "sizeType": "Large",
+            "abilities": ["Tank Siege Mode"],
+            "upgrades": ["Terran Vehicle Plating", "Terran Vehicle Weapons"],
+            "requiredUnits": ["Terran Factory", "Terran Machine Shop"],
+            "attributes": ["Mechanical"],
+            "createdBy": "Terran Factory"
+        },
+
+        {
+            "name": "Terran Vulture",
+            "race": "Terran",
+            "hp": 80,
+            "armor": 0,
+            "armorUpgrade": "Terran Vehicle Plating",
+            "cost": [75,0,4],
+            "buildTime": 450,
+            "topSpeed": 6.4,
+            "groundWeapon": "Fragmentation Grenade",
+            "sizeType": "Medium",
+            "sightRange": 256,
+            "abilities": ["Spider Mines"],
+            "upgrades": ["Ion Thrusters", "Terran Vehicle Plating", "Terran Vehicle Weapons"],
+            "requiredUnits": ["Terran Factory"],
+            "createdBy": "Terran Factory",
+            "attributes": ["Mechanical"]
+        },
+
+        {
+            "name":"Terran Vulture Spider Mine",
+            "race": "Terran",
+            "hp": 20,
+            "armor": 0,
+            "armorUpgrade": 60,
+            "cost": [1,0,0],
+            "buildTime": 1,
+            "topSpeed": 16,
+            "groundWeapon": "Spider Mines",
+            "sizeType": "Small",
+            "seekRange": 96,
+            "sightRange": 96
+        },
+
+        {
+            "name": "Terran Battlecruiser",
+            "race": "Terran",
+            "hp": 500,
+            "energy": 200,
+            "armor": 3,
+            "armorUpgrade": "Terran Ship Plating",
+            "cost": [400,300,12],
+            "buildTime": 1200,
+            "topSpeed": 2.5,
+            "groundWeapon": "ATS Laser Battery",
+            "attributes": "ATS Laser Battery",
+            "sizeType": "Large",
+            "sightRange": "352",
+            "abilities": ["Yamato Gun"],
+            "upgrades": ["Terran Ship Plating", "Terran Ship Weapons", "Colossus Reactor"],
+            "requiredUnits": ["Terran Starport", "Terran Control Tower", "Terran Physics Lab"],
+            "createdBy": "Terran Starport",
+            "attributes": ["Flyer", "Mechanical"]
+        },
+
+        {
+
+            "name": "Terran Dropship",
+            "race": "Terran",
+            "hp": 150,
+            "armor": 1,
+            "armorUpgrade": "Terran Ship Plating",
+            "cost": [100, 100, 4],
+            "buildTime": 750,
+            "topSpeed": 5.47,
+            "sizeType": "Large",
+            "transportSpaceProvided": 8,
+            "sightRange": 256,
+            "upgrades": ["Terran Ship Plating"],
+            "requiredUnits": ["Terran Starport", "Terran Control Tower"],
+            "createdBy": "Terran Starport",
+            "attributes": ["Flyer", "Mechanical"]
+
+        },
+
+        {
+
+            "name": "Terran Nuclear Missle",
+            "race": "Terran",
+            "hp": 100,
+            "armor": 0,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [200, 200, 16],
+            "buildTime": 1500,
+            "topSpeed": 33.33,
+            "sizeType": "Independent",
+            "sightRange": 96,
+            "requiredUnits": ["Terran Nucear Silo"],
+            "createdBy": "Terran Nuclear Silo",
+            "attributes": ["Flyer", "Invincible"]
+
+        },
+
+        {
+
+            "name": "Terran Science Vessel",
+            "race": "Terran",
+            "hp": 200,
+            "energy": 200,
+            "armor": 1,
+            "armorUpgrade": "Terran Ship Plating",
+            "cost": [100, 225, 4],
+            "buildTime": 1200,
+            "topSpeed": 5,
+            "sizeType": "Large",
+            "sightRange": 320,
+            "abilities": ["EMP Shockwave", "Defensive Matrix", "Irradiate"],
+            "upgrades": ["Terran Ship Plating", "Titan Reactor"],
+            "requiredUnits": ["Terran Starport", "Terran Control Tower", "Terran Science Facility"],
+            "createdBy": "Terran Starport",
+            "attributes": ["Flyer", "Mechanical", "Detector"]
+
+        },
+
+        {
+            "name": "Terran Valkyrie",
+            "race": "Terran",
+            "hp": 200,
+            "armor": 2,
+            "armorUpgrade": "Terran Ship Plating",
+            "cost": [250,125,6],
+            "buildTime": 750,
+            "topSpeed": 6.6,
+            "attributes": "Halo Rockets x 4",
+            "sizeType": "Large",
+            "sightRange": 256,
+            "upgrades": ["Terran Ship Plating", "Terran Ship Weapons"],
+            "requiredUnits": ["Terran Starport", "Terran Armory", "Terran Control Tower"],
+            "createdBy": "Terran Starport",
+            "attributes": ["Flyer", "Mechanical"]
+        },
+
+        {
+            "name": "Terran Wraith",
+            "race": "Terran",
+            "hp": 120,
+            "energy": 200,
+            "armor":0,
+            "armorUpgrade": "Terran Ship Plating",
+            "cost": [150,100,4],
+            "buildTime": 900,
+            "topSpeed": 6.67,
+            "groundWeapon":"Burst Lasers",
+            "airWeapon": "Gemini Missiles",
+            "sizeType":"Large",
+            "sightRange":224,
+            "abilities":["Cloaking Field"],
+            "upgrades": ["Terran Ship Plating", "Terran Ship Weapons", "Apollo Reactor"],
+            "requiredUnits": ["Terran Starport"],
+            "createdBy": "Terran Starport",
+            "attributes": ["Flyer", "Mechanical"]
+            
+        },
+
+        {
+            "name": "Terran Academy",
+            "race": "Terran",
+            "hp": 600,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [150,0,0],
+            "buildTime": 1200,
+            "sizeType":"Large",
+            "sightRange":256,
+            "requiredUnits": ["Terran Barracks", "Terran SCV"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Building"]
+
+        },
+
+        {
+            "name": "Terran Armory",
+            "race": "Terran",
+            "hp": 750,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [150,50,0],
+            "buildTime": 1200,
+            "sizeType":"Large",
+            "sightRange":256,
+            "requiredUnits": ["Terran Factory", "Terran SCV"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Building"]
+
+        },
+
+        {
+            "name": "Terran Barracks",
+            "race": "Terran",
+            "hp": 1000,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [150,0,0],
+            "buildTime": 1200,
+            "topSpeed": 1,
+            "sizeType":"Large",
+            "sightRange":256,
+            "requiredUnits": ["Terran Command Center", "Terran SCV"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Building", "Flying Building"]
+
+        },
+        
+        {
+            "name": "Terran Bunker",
+            "race": "Terran",
+            "hp": 350,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [100,0,0],
+            "buildTime": 450,
+            "sizeType":"Large",
+            "sightRange":256,
+            "transportSpaceProvided": 4,
+            "requiredUnits": ["Terran Barracks", "Terran SCV"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Building"]
+
+        },
+
+        {
+            "name": "Terran Command Center",
+            "race": "Terran",
+            "hp": 1500,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [400,0,0],
+            "buildTime": 1800,
+            "supplyProvided": 20,
+            "topSpeed": 1,
+            "sizeType":"Large",
+            "sightRange":320,
+            "transportSpaceProvided": 4,
+            "requiredUnits": ["Terran SCV"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Building", "Flying Building"]
+
+        },
+        
+
+        {
+            "name": "Terran Engineering Bay",
+            "race": "Terran",
+            "hp": 850,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [125,0,0],
+            "buildTime": 900,
+            "topSpeed": 1,
+            "sizeType":"Large",
+            "sightRange":256,
+            "requiredUnits": ["Terran SCV", "Terran Command Center"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Building", "Flying Building"]
+
+        },
+
+
+        {
+            "name": "Terran Factory",
+            "race": "Terran",
+            "hp": 1250,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [200,100,0],
+            "buildTime": 1200,
+            "topSpeed": 1,
+            "sizeType":"Large",
+            "sightRange":256,
+            "requiredUnits": ["Terran SCV", "Terran Barracks"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Building", "Flying Building"]
+
+        },
+
+        {
+            "name": "Terran Missile Turret",
+            "race": "Terran",
+            "hp": 200,
+            "armor":0,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [75,0,0],
+            "buildTime": 450,
+            "topSpeed": 1,
+            "sizeType":"Large",
+            "sightRange":352,
+            "requiredUnits": ["Terran SCV", "Terran Engineering Bay"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Building", "Detector"]
+
+        },
+
+        {
+            "name": "Terran Missile Turret",
+            "race": "Terran",
+            "hp": 200,
+            "armor":0,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [75,0,0],
+            "buildTime": 450,
+            "topSpeed": 1,
+            "sizeType":"Large",
+            "sightRange":352,
+            "requiredUnits": ["Terran SCV", "Terran Engineering Bay"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Building", "Detector"]
+
+        },
+
+        {
+            "name": "Terran Refinery",
+            "race": "Terran",
+            "hp": 750,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [100,0,0],
+            "buildTime": 600,
+            "sizeType":"Large",
+            "sightRange": 256,
+            "requiredUnits": ["Terran SCV"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Resource Container", "Refinery", "Building"]
+        },
+
+        {
+            "name": "Terran Science Facility",
+            "race": "Terran",
+            "hp": 850,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [100,150,0],
+            "buildTime": 900,
+            "topSpeed": 1,
+            "sizeType":"Large",
+            "sightRange": 320,
+            "requiredUnits": ["Terran SCV", "Terran Starport"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Flying Building", "Building"],
+            "meta": {
+                "links": []
+            }
+        },
+
+        {
+            "name": "Terran Starport",
+            "race": "Terran",
+            "hp": 1300,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [100,150,0],
+            "buildTime": 1050,
+            "topSpeed": 1,
+            "sizeType":"Large",
+            "sightRange": 320,
+            "requiredUnits": ["Terran SCV", "Terran Factory"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Flying Building", "Building"],
+            "meta": {
+                "links": []
+            }
+        },
+
+        {
+            "name": "Terran Starport",
+            "race": "Terran",
+            "hp": 1300,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [100,150,0],
+            "buildTime": 1050,
+            "topSpeed": 1,
+            "sizeType":"Large",
+            "sightRange": 320,
+            "requiredUnits": ["Terran SCV", "Terran Factory"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Flying Building", "Building"],
+            "meta": {
+                "links": []
+            }
+        },
+
+        {
+            "name": "Terran Supply Depot",
+            "race": "Terran",
+            "hp": 500,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [100,0,0],
+            "buildTime": 600,
+            "supplyProvided": 16,
+            "sizeType":"Large",
+            "sightRange": 256,
+            "requiredUnits": ["Terran SCV"],
+            "createdBy": "Terran SCV",
+            "attributes": ["Mechanical", "Building"],
+            "meta": {
+                "links": []
+            }
+        },
+
+        {
+            "name": "Terran Comsat Station",
+            "race": "Terran",
+            "hp": 500,
+            "energy":200,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [50,50,0],
+            "buildTime": 600,
+            "supplyProvided": 16,
+            "sizeType":"Large",
+            "sightRange": 320,
+            "abilities": "Scanner Sweep",
+            "requiredUnits": ["Terran Command Center", "Terran Academy"],
+            "createdBy": "Terran Command Center",
+            "attributes": ["Mechanical", "Building", "Addon"],
+            "meta": {
+                "links": []
+            }
+        },
+
+        {
+            "name": "Terran Control Tower",
+            "race": "Terran",
+            "hp": 500,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [50,50,0],
+            "buildTime": 600,
+            "sizeType":"Large",
+            "sightRange": 256,
+            "requiredUnits": ["Terran Starport"],
+            "createdBy": "Terran Starport",
+            "attributes": ["Mechanical", "Building", "Addon"],
+            "meta": {
+                "links": []
+            }
+        },
+
+        {
+            "name": "Terran Covert Ops",
+            "race": "Terran",
+            "hp": 750,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [50,50,0],
+            "buildTime": 600,
+            "sizeType":"Large",
+            "sightRange": 256,
+            "requiredUnits": ["Terran Science Facility"],
+            "createdBy": "Terran Science Facility",
+            "attributes": ["Mechanical", "Building", "Addon"],
+            "meta": {
+                "links": []
+            }
+        },
+        
+        {
+            "name": "Terran Machine Shop",
+            "race": "Terran",
+            "hp": 750,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [50,50,0],
+            "buildTime": 600,
+            "sizeType":"Large",
+            "sightRange": 256,
+            "requiredUnits": ["Terran Factory"],
+            "createdBy": "Terran Factory",
+            "attributes": ["Mechanical", "Building", "Addon"],
+            "meta": {
+                "links": []
+            }
+        },
+        
+
+        {
+            "name": "Terran Nuclear Silo",
+            "race": "Terran",
+            "hp": 600,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [100,100,0],
+            "buildTime": 1200,
+            "sizeType":"Large",
+            "sightRange": 256,
+            "requiredUnits": ["Terran Command Center", "Terran Science Facility", "Terran Covert Ops"],
+            "createdBy": "Terran Command Center",
+            "attributes": ["Mechanical", "Building", "Addon"],
+            "meta": {
+                "links": []
+            }
+        },
+
+        {
+            "name": "Terran Physics Lab",
+            "race": "Terran",
+            "hp": 600,
+            "armor":1,
+            "armorUpgrade": "Upgrade 60",
+            "cost": [50,50,0],
+            "buildTime": 600,
+            "sizeType":"Large",
+            "sightRange": 256,
+            "requiredUnits": ["Terran Science Facility"],
+            "createdBy": "Terran Science Facility",
+            "attributes": ["Mechanical", "Building", "Addon"],
+            "meta": {
+                "links": []
+            }
+        },
+
+
+    ],
+
+
+    "weapons": [
+        {
+            "name": "Gauss Rifle",
+            "damage":	6,
+            "damageBonus": 1,
+            "baseCooldown":	15,
+            "damageFactor": 1,
+            "upgrade": "Terran Infantry Weapons",
+            "damageType": "Normal",
+            "explosionType": "Normal",
+            "maximumRange":	128,
+            "targetAttributes":	["Air", "Ground"]
+        }
+    ]
+
+}
